@@ -1,0 +1,40 @@
+.profilePicDiv{
+    background-color: #422D53;
+    height: 18vw;
+    width: 18vw;
+    border-radius: 8px;
+    position: absolute;
+    right: 10vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.profilePic{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.profilePicText{
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 18px;
+    height: 100%;
+    padding: 8px;
+    writing-mode: vertical-rl;
+}
+
+.profilePicText{
+    background-color: #422D53;
+    opacity: 0.8;
+}

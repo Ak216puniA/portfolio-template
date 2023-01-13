@@ -1,0 +1,46 @@
+.introDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3vw 5vw 10vh 5vw;
+}
+
+.introText{
+    margin-bottom: 4vw;
+    display: flex;
+    height: 4vw;
+}
+
+.introNormal{
+    font-size: 1.5vw;
+}
+
+.introBold{
+    font-size: 2vw;
+}
+
+.rowLeftAlign{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 1vw;
+}
+
+.rowRightAlign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: 500;
+}
+
+.quoteDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D1788F;
+    font-size: 2vw;
+    font-weight: 900;
+    height: 20vh;
+    background-image: linear-gradient(to top right, #F7D7DA, #EFDFFB);
+    padding: 2vw 10vw;
+}

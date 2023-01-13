@@ -1,0 +1,38 @@
+.navBarDiv{
+    height: 100vh;
+    width: 3vw;
+    position: fixed;
+    right: 0px;
+    background-color: #D1788F;
+    writing-mode: vertical-rl;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.navBarLinkDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    width: 90%;
+}
+
+.navBarLinkDiv:hover{
+    background-color: #B1687B;
+}
+
+.navBarLinkExplore{
+    height: 50%;
+}
+
+.navBarLinkAbout{
+    height: 30%;
+}
+
+.navBarLinkContact{
+    height: 20%;
+}

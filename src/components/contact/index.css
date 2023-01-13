@@ -1,0 +1,41 @@
+.contactDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw 5vw 10vw 5vw;
+}
+
+.contactDescDiv{
+    width: 100%;
+    font-size: 1.3vw;
+}
+
+.contactLinksDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 5vw;
+}
+
+.link:hover{
+    color: #DD7C86;
+}
+
+.contactLink{
+    padding: 1vw 4vw;
+}
+
+.facebookLink{
+    color: #201F48;
+}
+
+.linkedinLink{
+    color: #422D53;
+}
+
+.githubLink{
+    color: #912E54;
+}
+
+.emailLink{
+    color: #D1788F;
+}

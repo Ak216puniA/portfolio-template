@@ -1,0 +1,117 @@
+.sectionHeadingDiv{
+    margin: 10vh 5vw 1.5vw 5vw;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sectionHeadingHrTag{
+    margin: 0 5vw 1.5vw 4vw;
+    border-top: 1px solid #160F1B;
+}
+
+.exploreProjectsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectDiv{
+    display: flex;
+    align-items: center;
+    height: 30vw;
+    margin: 1vw 5vw 4vw 5vw;
+    border-radius: 16px;
+    padding: 1vw 2vw;
+}
+
+.projectImageDiv{
+    width: 45vw;
+    height: 30vw;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectNumberDiv{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.8vw;
+    font-weight: 700;
+    color: #422D53;
+    width: 90%;
+}
+
+.projectImage{
+    height: 30vw;
+    width: 45vw;
+    border-radius: 12px;
+}
+
+.projectMiddlePaddingDiv{
+    height: 100%;
+    width: 2vw;
+}
+
+.projectDescDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.projectTextDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.projectTitle{
+    padding: 1vw 0 2vw 2vw;
+    font-size: 2vw;
+    color: #201F48;
+}
+
+.projectDesc{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 0 0 2vw;
+    text-align: left;
+    font-size: 1.3vw;
+    color: #422D53;
+}
+
+.projectLink{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 1vw 2vw;
+}
+
+.viewMoreLink{
+    font-size: 1.2vw;
+    text-decoration: none;
+
+    --b: 0.15em;   /* the thickness of the line */
+    --c: #912E54; /* the color */
+    
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+        linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+        linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+
+.viewMoreLink:hover{
+    font-size: 1.3vw;
+    --_p: 100%;
+    --_s: .3s;
+}
